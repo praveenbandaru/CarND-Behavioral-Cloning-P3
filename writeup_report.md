@@ -21,7 +21,7 @@ The goals / steps of this project are the following:
 [image6]: ./examples/center_image.png "Normal Image"
 [image7]: ./examples/flipped_image.png "Flipped Image"
 [image8]: ./examples/loss.png "Loss"
-[image8]: ./examples/run.png "Run"
+[image9]: ./examples/run.png "Run"
 
 ## Rubric Points
 ### Here I will consider the [rubric points](https://review.udacity.com/#!/rubrics/432/view) individually and describe how I addressed each point in my implementation.  
