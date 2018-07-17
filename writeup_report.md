@@ -21,6 +21,7 @@ The goals / steps of this project are the following:
 [image6]: ./examples/center_image.png "Normal Image"
 [image7]: ./examples/flipped_image.png "Flipped Image"
 [image8]: ./examples/loss.png "Loss"
+[image8]: ./examples/run.png "Run"
 
 ## Rubric Points
 ### Here I will consider the [rubric points](https://review.udacity.com/#!/rubrics/432/view) individually and describe how I addressed each point in my implementation.  
@@ -130,3 +131,4 @@ I finally randomly shuffled the data set and put 20% of the data into a validati
 I used this training data for training the model. The validation set helped determine if the model was over or under fitting. The ideal number of epochs was 5 as evidenced by loss vs epoch graph. I can run it for more epochs by decreasing the learning rate to get a better mean squared error loss but I haven't pursued as my model was running successfully on the simulator. I used an adam optimizer so that manually training the learning rate wasn't necessary.
 
 ![alt text][image8]
+![alt text][image9]
