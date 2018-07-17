@@ -51,18 +51,18 @@ The model.py file contains the code for training and saving the convolution neur
 
 #### 1. An appropriate model architecture has been employed
 
-My model consists of a convolution neural network with 5x5 & 3x3 filter sizes and depths between 24 and 64 (model.py lines 78-90) 
+My model consists of a convolution neural network with 5x5 & 3x3 filter sizes and depths between 24 and 64 (model.py lines 75-91) 
 
-The model includes RELU layers to introduce nonlinearity (code lines 81-85), and the data is normalized in the model using a Keras lambda layer (code line 79). 
+The model includes RELU layers to introduce nonlinearity (code lines 78-82), and the data is normalized in the model using a Keras lambda layer (code line 76). 
 
-The model also consists of a Keras cropping layer which trims the image to only see a section containing road by removing sky and hood at the top and bottom of the image respectively (code line 80).
+The model also consists of a Keras cropping layer which trims the image to only see a section containing road by removing sky and hood at the top and bottom of the image respectively (code line 77).
 
 Here is the model summary:
 ![alt text][image2]
 
 #### 2. Attempts to reduce overfitting in the model
 
-The model doesn't contains any dropout layers or any regularization techniques. 
+The model contains dropout layers in order to reduce overfitting (model.py lines 84,86,88&90). 
 
 The model was trained and validated on an augmentated data set containing different data sets from both track1 and track2 to ensure that the model was generalized and not overfitting. The model was tested by running it through the simulator and ensuring that the vehicle could stay on the track.
 
@@ -99,7 +99,7 @@ At the end of the process, the vehicle is able to drive autonomously around both
 
 #### 2. Final Model Architecture
 
-The final model architecture (model.py lines 78-90) consisted of a convolution neural network with the following layers and layer sizes.
+The final model architecture (model.py lines 75-91) consisted of a convolution neural network with the following layers and layer sizes.
 
 Here is a visualization of the architecture (note: visualizing the architecture is optional according to the project rubric)
 
