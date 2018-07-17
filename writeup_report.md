@@ -95,7 +95,7 @@ Then I implemented the convolutional neural network model from [NVIDIA's article
 
 After training on the new model, the car was able to successfully drive around the track1 without any problem but failed on track2. Then I managed to collect and add more training data for track2 and retrained the model on the final dataset.
 
-At the end of the process, the vehicle is able to drive autonomously around both the tracks without leaving the road.
+At the end of the process, the vehicle is able to drive autonomously around both the tracks(track1 & track2) without leaving the road.
 
 #### 2. Final Model Architecture
 
